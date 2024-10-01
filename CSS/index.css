@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 1.8em;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+p {
+    margin: 0;
+    font-size: 12px;
+}
+span {
+    padding: 0;
+}
+span, td {
+    font-size: 12px;
+}
+#invoiceType{
+    font-size: 1em;
+}
+.container-ppal {
+    max-width: 780px;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.border, .border-end {
+    border-color: #333 !important;
+}
+.border-black {
+    border-bottom: 2px solid #181616;
+}
+.table th {
+    background-color: #181616;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 13px;
+}
+.text-small {
+    font-size: 9.7px;
+}
+.inline-text {
+    white-space: nowrap;
+}
+.footer {
+    page-break-inside: avoid;
+}
+.page {
+    page-break-after: always;
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.page:last-child {
+    page-break-after: auto;
+}
+.content {
+    flex: 1;
+}
+.footer {
+    background-color: white;
+    margin-top: auto;
+}
+.company-info {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+}
+.company-info span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+}
+.row .p-2 {
+    margin-bottom: 5px;
+}
+.small-text {
+    font-size: 9px;
+}
+.footer-content {
+    line-height: 1.2;
+}
+.header-info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.header-info .text-title {
+    font-size: 11px;
+    font-weight: bold;
+}
+.group{
+    width: 100%;
+}
+
+.data-column{
+    display: flex;
+    justify-content: space-between;
+}
+.billing-dates{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.billing-date-issued,
+.billing-date-expire{
+    font-size: 0.85em;
+}
+
+table{
+    overflow: hidden;
+}
